@@ -1,0 +1,17 @@
+{
+  "name": "printer",
+  "main": "./lib/printer",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationCommands": {
+    "atom-workspace": "printer:print"
+  },
+  "repository": "https://github.com/postcasio/atom-printer",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+    "lodash": "^3.2.0"
+  }
+}
