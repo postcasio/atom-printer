@@ -11,7 +11,7 @@ module.exports = AtomPrinter =
     @subscriptions = new CompositeDisposable
 
     # Register command that toggles this view
-    @subscriptions.add atom.commands.add 'atom-workspace', 'atom-printer:print': => @print()
+    @subscriptions.add atom.commands.add 'atom-workspace', 'printer:print': => @print()
 
   deactivate: ->
     @subscriptions.dispose()
