@@ -3,7 +3,7 @@
   'atom-text-editor': [
     {
       'label': 'Print'
-      'command': 'atom-printer:print'
+      'command': 'printer:print'
     }
   ]
 'menu': [
@@ -14,7 +14,7 @@
       'submenu': [
         {
           'label': 'Print'
-          'command': 'atom-printer:print'
+          'command': 'printer:print'
         }
       ]
     ]
